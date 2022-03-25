@@ -1,0 +1,132 @@
+
+.btn{
+    background-color: rgb(158, 202, 131);
+    border: none;
+    color: rgb(0, 0, 0);
+    transition-duration: 100ms;
+    margin: 5px;
+}
+.btn:hover{
+    background-color: rgb(177, 228, 82);
+    color: rgb(0, 0, 0);
+}
+.btn:active{
+    background-color: rgb(158, 202, 131);
+    border:none;
+}
+.btn:focus{
+    border:none;
+}
+.container{
+    width: 98%;
+    min-width: none;
+    max-width: none;
+    max-height: 100%;
+    background-color: rgb(41,148,121);
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    column-gap: 5px;
+
+
+}
+.form-input{
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    border: 1px;
+}
+
+#reimbursements-container{
+    height: 90%;
+    max-height: auto;
+    background-color: rgb(192, 192, 192);
+    margin: 5px;
+    display: flex;
+    flex-flow: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1000px;
+}
+.reimb-card{
+    position: relative;
+    background-color: rgb(206, 206, 206);
+
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.reimb-title{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.reimb-amount{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.reimb-author{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.reimb-status{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#reimb-description{
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+}
+#approveDeny{
+    display: flex;
+    flex-flow: column;
+
+    text-align: center;
+}
+.reimb-label-left{
+    text-align: left;
+}
+.reimb-label-right{
+    text-align: right;
+}
+.container-row{
+    display: flex;
+    justify-content: space-between;
+}
+#reimb-container{
+    background-color: rgb(114, 184, 129)
+    ;
+    margin: 5px;
+    display: flex;
+    flex-flow: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
